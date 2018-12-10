@@ -1,0 +1,21 @@
+Package: HDCovMatTest
+Type: Package
+Title: Test of high-dimensional covariance matrices with longitudinal data
+Version: 1.0.0
+Date: 2018-09-01
+Author: Ping-Shou Zhong, Runze Li, and Shawn Santo
+Maintainer: Shawn Santo <santosha@stt.msu.edu>
+Depends: R (>= 3.2.0)
+Description: An implementation for testing the homogeneity of covariance matrices
+    in high-dimensional longitudinal data with temporospatial dependence. The 
+    null hypothesis is that all covariance matrices are equal at each time point.
+    If the null hypothesis is rejected, estimates of the change points are 
+    provided. A binary segmentation approach is applied to estimate multiple
+    change points.
+License: GPL (>=2)
+Imports:
+    mvtnorm,
+    stats
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
