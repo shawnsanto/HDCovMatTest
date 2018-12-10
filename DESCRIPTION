@@ -12,6 +12,7 @@ Description: An implementation for testing the homogeneity of covariance matrice
     If the null hypothesis is rejected, estimates of the change points are 
     provided. A binary segmentation approach is applied to estimate multiple
     change points.
+URL: https://github.com/shawnsanto/HDCovMatTest
 License: GPL (>=2)
 Imports:
     mvtnorm,
