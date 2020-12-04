@@ -6,11 +6,17 @@ Homogeneity tests of covariance matrices with high-dimensional longitudinal data
 
 ## Overview
 
-This repository hosts an R package that implements the methodology developed in
+HDCovMatTest implements the methodology developed in
 "Homogeneity tests of covariance matrices with high-dimensional longitudinal 
-data" by Ping-Shou Zhong,  Runze Li, and Shawn Santo. 
+data" by Ping-Shou Zhong,  Runze Li, and Shawn Santo.
 
-That paper deals with the detection and identification of changepoints among 
+- `test_covmat()` performs the hypothesis testing procedure.
+- `cpi_covmat()` identifies change points in the time series of covariance
+  matrices.
+
+#### Paper's abstract
+
+This paper deals with the detection and identification of changepoints among 
 covariances of high-dimensional longitudinal data, where the number of features 
 is greater than both the sample size and the number of repeated measurements. 
 The proposed methods are applicable under general temporal-spatial dependence. 
