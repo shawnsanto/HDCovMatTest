@@ -1,5 +1,7 @@
 # HDCovMatTest
 
+![GitHub R package version](https://img.shields.io/github/r-package/v/shawnsanto/HDCovMatTest)
+
 Homogeneity tests of covariance matrices with high-dimensional longitudinal data
 
 ## Overview
