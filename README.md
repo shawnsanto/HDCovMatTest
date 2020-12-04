@@ -1,8 +1,8 @@
 # HDCovMatTest
 
-## Homogeneity tests of covariance matrices with high-dimensional longitudinal data
+Homogeneity tests of covariance matrices with high-dimensional longitudinal data
 
-## Description
+## Overview
 
 This repository hosts an R package that implements the methodology developed in
 "Homogeneity tests of covariance matrices with high-dimensional longitudinal 
@@ -23,10 +23,9 @@ proposed test and the accuracy of the changepoint estimator. An application to
 a time-course microarray dataset identifies gene sets with significant gene 
 interaction changes over time.
 
-## Install HDCovMatTest package
+## Install package `HDCovMatTest`
 
-Package HDCovMatTest can be installed using the devtools package in R. 
-Below is R code to obtain HDCovMatTest.
+Package HDCovMatTest can be installed using the `devtools` package in R. 
 
 ```r
 # install (if not available) and load the devtools package
@@ -96,6 +95,8 @@ Perform the testing procedure.
 test_covmat(y, n, p, TT, alpha = 0.01)
 ```
 
+Results are provided in an R list.
+
 ```r
 $reject # rejection flag
 [1] 1
@@ -121,4 +122,4 @@ $corrmat # corresponding correlation matrix
 
 Ping-Shou Zhong, Runze Li, Shawn Santo, Homogeneity tests of covariance matrices 
 with high-dimensional longitudinal data, Biometrika, Volume 106, Issue 3, 
-September 2019, Pages 619–634, https://doi.org/10.1093/biomet/asz011
+September 2019, Pages 619–634, https://doi.org/10.1093/biomet/asz011.
